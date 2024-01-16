@@ -6,7 +6,7 @@ import './globals.css';
 const pretendard = localFont({
   src: [
     {
-      path: '../public/fonts/PretendardVariable.woff2',
+      path: '../public/fonts/PretendardVariable.ttf',
     },
   ],
 });
