@@ -1,12 +1,11 @@
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
-import { Inter } from 'next/font/google';
 import './globals.css';
 
 const pretendard = localFont({
   src: [
     {
-      path: '../public/fonts/PretendardVariable.ttf',
+      path: '../public/fonts/PretendardVariable.woff2',
     },
   ],
 });
