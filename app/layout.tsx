@@ -22,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body className={`${pretendard.className} font-semibold`}>
+      <body className={`${pretendard.className} text-neutral-100`}>
         {children}
       </body>
     </html>

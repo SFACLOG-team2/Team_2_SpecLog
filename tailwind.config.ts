@@ -9,11 +9,6 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
       colors: {
         neutral: {
           100: '#030303',
@@ -48,24 +43,13 @@ const config: Config = {
           50: '#A9A9A9',
           5: '#F8F8F9',
           blue: '#F5F8FF',
-          pink: '#FFE5EB',
-          green: '#E3FFFA',
-          purple: '#EFE8FF',
-          orange: '#FFECCF',
         },
         system: {
           warning: '#FF0000',
           success: '#07A320',
         },
-        hover: {
-          red: '#FF527C',
-          green: '#06C9A6',
-          purple: '#925EFF',
-          orange: '#FF9900',
-        },
       },
     },
   },
-  plugins: [],
 };
 export default config;
